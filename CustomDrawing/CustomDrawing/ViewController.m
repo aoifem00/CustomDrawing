@@ -15,6 +15,24 @@
 @implementation ViewController
 @synthesize YourView;
 
+struct Spirograph{
+    int innerR;
+    int outerR;
+    int distance;
+    CGFloat amount;
+};
+
+- (int)getGCD:(int)innerR
+joiningArgument2:(int)outerR{
+    if(innerR==outerR){
+        return innerR;
+    }
+    if(innerR>outerR){
+        return [self getGCD:innerR-outerR joiningArgument2:outerR];
+    }
+    return [self getGCD:innerR joiningArgument2:outerR-innerR];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
