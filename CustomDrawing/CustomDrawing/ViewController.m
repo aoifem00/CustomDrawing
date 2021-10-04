@@ -83,6 +83,9 @@ joiningArgument2:(int)outerR{
     CGMutablePathRef ref=[self getPath:spirograph];
     UIImageView* subView=[self getView:ref];
     [self.view addSubview:subView];
+    [UIView animateWithDuration:0.5f animations:^{subView.frame = CGRectOffset(subView.frame, 0, 50);
+    }];
+    
 }
 
 - (UIImage*)getImage{
