@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import <UIKit/UIGraphicsRendererSubclass.h>
+#import <CoreGraphics/CGPath.h>
 
 @interface ViewController ()
 
@@ -33,17 +34,58 @@ joiningArgument2:(int)outerR{
     return [self getGCD:innerR joiningArgument2:outerR-innerR];
 }
 
+- (CGMutablePathRef)getPath:(struct Spirograph)spirograph{
+    int div=[self getGCD:spirograph.innerR joiningArgument2:spirograph.outerR];
+    CGFloat outerR=(CGFloat)spirograph.outerR;
+    CGFloat innerR=(CGFloat)spirograph.innerR;
+    CGFloat distance=(CGFloat)spirograph.distance;
+    CGFloat difference=innerR-outerR;
+    CGFloat end=ceilf(2*M_PI*outerR/(CGFloat)div*spirograph.amount);
+    CGMutablePathRef ref=CGPathCreateMutable();
+    for(float i=0; i<end; i+=0.01){
+        CGFloat x=difference*cos(i)+distance*cos(difference/outerR*i);
+        CGFloat y=difference*sin(i)+distance*sin(difference/outerR*i);
+        if(i==0) CGPathMoveToPoint(ref, NULL, x, y);
+        else{
+            CGPathAddLineToPoint(ref, NULL, x, y);
+        }
+    }
+    return ref;
+}
+
+- (UIImageView*)getView:(CGMutablePathRef)path{
+    CAShapeLayer* shapeLayer=[[CAShapeLayer alloc]init];
+    shapeLayer.path=path;
+    UIColor* purp=[UIColor colorWithRed: 0.69 green: 0.41 blue: 0.94 alpha: 1.00];
+    UIColor* white=[UIColor colorWithRed: 1 green: 1 blue: 1 alpha: 1.00];
+
+    shapeLayer.strokeColor=purp.CGColor;
+    shapeLayer.fillColor=white.CGColor;
+
+    shapeLayer.lineWidth=1;
+    //shapeLayer.position=CGPointMake(10, 10);
+    UIImageView* view=[[UIImageView alloc]initWithFrame:CGRectMake(210, 400, 300, 300)];
+    [view.layer insertSublayer:shapeLayer atIndex:0];
+    return view;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    UIImage* returnImage=[self getImage];
+    /*UIImage* returnImage=[self getImage];
     UIImageView *dot =[[UIImageView alloc] initWithImage:returnImage];
-    [self.view addSubview:dot];
-    
+    [self.view addSubview:dot];*/
+    struct Spirograph spirograph;
+    spirograph.innerR=75.0;
+    spirograph.outerR=125.0;
+    spirograph.distance=25.0;
+    spirograph.amount=1.0;
+    CGMutablePathRef ref=[self getPath:spirograph];
+    UIImageView* subView=[self getView:ref];
+    [self.view addSubview:subView];
 }
+
 - (UIImage*)getImage{
-    int x=0;
-    int y=0;
     UIGraphicsImageRenderer *renderer = [[UIGraphicsImageRenderer alloc] initWithSize:CGSizeMake(200, 200)];
     UIImage *image = [renderer imageWithActions:^(UIGraphicsImageRendererContext * _Nonnull context) {
         [[UIColor darkGrayColor] setStroke];
