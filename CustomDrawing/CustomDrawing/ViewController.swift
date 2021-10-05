@@ -54,12 +54,7 @@ class ViewController: UIViewController {
         return path
     }
     
-    
-    weak var shapeLayer: CAShapeLayer?
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func drawSpirograph(){
         self.shapeLayer?.removeFromSuperlayer()
         let spiro=Spirograph(innerR: 75, outerR:125, distance:25, amount:1.0)
         let path=getPath(spirograph: spiro)
@@ -91,6 +86,24 @@ class ViewController: UIViewController {
         // save shape layer
 
         self.shapeLayer = shapeLayer
+    }
+    
+    
+    weak var shapeLayer: CAShapeLayer?
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        //drawSpirograph()
+        let button = UIButton(frame: CGRect(x:(self.view.frame.midX/2+self.view.frame.midX/4)/2, y:self.view.frame.midY+100, width:CGFloat(200), height:CGFloat(50)))
+        button.setTitle("Draw Spirograph", for: UIControl.State.normal)
+        let buttonText = "Draw Spirograph"
+        let font = UIFont.systemFont(ofSize: 18)
+        let attributes = [NSAttributedString.Key.font: font]
+        let attributeString = NSAttributedString(string: buttonText, attributes: attributes)
+        button.setAttributedTitle(attributeString, for: .normal)
+        button.addTarget(self, action: #selector(drawSpirograph), for: .touchUpInside)
+        self.view.addSubview(button)
     }
 }
 
