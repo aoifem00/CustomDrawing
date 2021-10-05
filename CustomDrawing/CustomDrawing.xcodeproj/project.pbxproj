@@ -7,34 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		234DA4D32704A9EC00AAFCAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 234DA4D22704A9EC00AAFCAD /* AppDelegate.m */; };
-		234DA4D62704A9EC00AAFCAD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 234DA4D52704A9EC00AAFCAD /* SceneDelegate.m */; };
-		234DA4D92704A9EC00AAFCAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 234DA4D82704A9EC00AAFCAD /* ViewController.m */; };
-		234DA4DC2704A9EC00AAFCAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234DA4DA2704A9EC00AAFCAD /* Main.storyboard */; };
-		234DA4DF2704A9EC00AAFCAD /* CustomDrawing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 234DA4DD2704A9EC00AAFCAD /* CustomDrawing.xcdatamodeld */; };
-		234DA4E12704A9ED00AAFCAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234DA4E02704A9ED00AAFCAD /* Assets.xcassets */; };
-		234DA4E42704A9ED00AAFCAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234DA4E22704A9ED00AAFCAD /* LaunchScreen.storyboard */; };
-		234DA4E72704A9ED00AAFCAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 234DA4E62704A9ED00AAFCAD /* main.m */; };
+		2339369C270BEFFE000BDC12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2339369B270BEFFE000BDC12 /* AppDelegate.swift */; };
+		2339369E270BEFFE000BDC12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2339369D270BEFFE000BDC12 /* SceneDelegate.swift */; };
+		233936A0270BEFFE000BDC12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2339369F270BEFFE000BDC12 /* ViewController.swift */; };
+		233936A3270BEFFE000BDC12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233936A1270BEFFE000BDC12 /* Main.storyboard */; };
+		233936A6270BEFFE000BDC12 /* CustomDrawing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 233936A4270BEFFE000BDC12 /* CustomDrawing.xcdatamodeld */; };
+		233936A8270BF000000BDC12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233936A7270BF000000BDC12 /* Assets.xcassets */; };
+		233936AB270BF000000BDC12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233936A9270BF000000BDC12 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		234DA4CE2704A9EC00AAFCAD /* CustomDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		234DA4D12704A9EC00AAFCAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		234DA4D22704A9EC00AAFCAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		234DA4D42704A9EC00AAFCAD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		234DA4D52704A9EC00AAFCAD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		234DA4D72704A9EC00AAFCAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		234DA4D82704A9EC00AAFCAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		234DA4DB2704A9EC00AAFCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		234DA4DE2704A9EC00AAFCAD /* CustomDrawing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomDrawing.xcdatamodel; sourceTree = "<group>"; };
-		234DA4E02704A9ED00AAFCAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		234DA4E32704A9ED00AAFCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		234DA4E52704A9ED00AAFCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		234DA4E62704A9ED00AAFCAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23393698270BEFFE000BDC12 /* CustomDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2339369B270BEFFE000BDC12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2339369D270BEFFE000BDC12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2339369F270BEFFE000BDC12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		233936A2270BEFFE000BDC12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		233936A5270BEFFE000BDC12 /* CustomDrawing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomDrawing.xcdatamodel; sourceTree = "<group>"; };
+		233936A7270BF000000BDC12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		233936AA270BF000000BDC12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		233936AC270BF000000BDC12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		234DA4CB2704A9EC00AAFCAD /* Frameworks */ = {
+		23393695270BEFFE000BDC12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,37 +39,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		234DA4C52704A9EC00AAFCAD = {
+		2339368F270BEFFE000BDC12 = {
 			isa = PBXGroup;
 			children = (
-				234DA4D02704A9EC00AAFCAD /* CustomDrawing */,
-				234DA4CF2704A9EC00AAFCAD /* Products */,
+				2339369A270BEFFE000BDC12 /* CustomDrawing */,
+				23393699270BEFFE000BDC12 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		234DA4CF2704A9EC00AAFCAD /* Products */ = {
+		23393699270BEFFE000BDC12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				234DA4CE2704A9EC00AAFCAD /* CustomDrawing.app */,
+				23393698270BEFFE000BDC12 /* CustomDrawing.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		234DA4D02704A9EC00AAFCAD /* CustomDrawing */ = {
+		2339369A270BEFFE000BDC12 /* CustomDrawing */ = {
 			isa = PBXGroup;
 			children = (
-				234DA4D12704A9EC00AAFCAD /* AppDelegate.h */,
-				234DA4D22704A9EC00AAFCAD /* AppDelegate.m */,
-				234DA4D42704A9EC00AAFCAD /* SceneDelegate.h */,
-				234DA4D52704A9EC00AAFCAD /* SceneDelegate.m */,
-				234DA4D72704A9EC00AAFCAD /* ViewController.h */,
-				234DA4D82704A9EC00AAFCAD /* ViewController.m */,
-				234DA4DA2704A9EC00AAFCAD /* Main.storyboard */,
-				234DA4E02704A9ED00AAFCAD /* Assets.xcassets */,
-				234DA4E22704A9ED00AAFCAD /* LaunchScreen.storyboard */,
-				234DA4E52704A9ED00AAFCAD /* Info.plist */,
-				234DA4E62704A9ED00AAFCAD /* main.m */,
-				234DA4DD2704A9EC00AAFCAD /* CustomDrawing.xcdatamodeld */,
+				2339369B270BEFFE000BDC12 /* AppDelegate.swift */,
+				2339369D270BEFFE000BDC12 /* SceneDelegate.swift */,
+				2339369F270BEFFE000BDC12 /* ViewController.swift */,
+				233936A1270BEFFE000BDC12 /* Main.storyboard */,
+				233936A7270BF000000BDC12 /* Assets.xcassets */,
+				233936A9270BF000000BDC12 /* LaunchScreen.storyboard */,
+				233936AC270BF000000BDC12 /* Info.plist */,
+				233936A4270BEFFE000BDC12 /* CustomDrawing.xcdatamodeld */,
 			);
 			path = CustomDrawing;
 			sourceTree = "<group>";
@@ -82,13 +73,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		234DA4CD2704A9EC00AAFCAD /* CustomDrawing */ = {
+		23393697270BEFFE000BDC12 /* CustomDrawing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 234DA4EA2704A9ED00AAFCAD /* Build configuration list for PBXNativeTarget "CustomDrawing" */;
+			buildConfigurationList = 233936AF270BF000000BDC12 /* Build configuration list for PBXNativeTarget "CustomDrawing" */;
 			buildPhases = (
-				234DA4CA2704A9EC00AAFCAD /* Sources */,
-				234DA4CB2704A9EC00AAFCAD /* Frameworks */,
-				234DA4CC2704A9EC00AAFCAD /* Resources */,
+				23393694270BEFFE000BDC12 /* Sources */,
+				23393695270BEFFE000BDC12 /* Frameworks */,
+				23393696270BEFFE000BDC12 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -96,23 +87,24 @@
 			);
 			name = CustomDrawing;
 			productName = CustomDrawing;
-			productReference = 234DA4CE2704A9EC00AAFCAD /* CustomDrawing.app */;
+			productReference = 23393698270BEFFE000BDC12 /* CustomDrawing.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		234DA4C62704A9EC00AAFCAD /* Project object */ = {
+		23393690270BEFFE000BDC12 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					234DA4CD2704A9EC00AAFCAD = {
+					23393697270BEFFE000BDC12 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 234DA4C92704A9EC00AAFCAD /* Build configuration list for PBXProject "CustomDrawing" */;
+			buildConfigurationList = 23393693270BEFFE000BDC12 /* Build configuration list for PBXProject "CustomDrawing" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,57 +112,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 234DA4C52704A9EC00AAFCAD;
-			productRefGroup = 234DA4CF2704A9EC00AAFCAD /* Products */;
+			mainGroup = 2339368F270BEFFE000BDC12;
+			productRefGroup = 23393699270BEFFE000BDC12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				234DA4CD2704A9EC00AAFCAD /* CustomDrawing */,
+				23393697270BEFFE000BDC12 /* CustomDrawing */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		234DA4CC2704A9EC00AAFCAD /* Resources */ = {
+		23393696270BEFFE000BDC12 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				234DA4E42704A9ED00AAFCAD /* LaunchScreen.storyboard in Resources */,
-				234DA4E12704A9ED00AAFCAD /* Assets.xcassets in Resources */,
-				234DA4DC2704A9EC00AAFCAD /* Main.storyboard in Resources */,
+				233936AB270BF000000BDC12 /* LaunchScreen.storyboard in Resources */,
+				233936A8270BF000000BDC12 /* Assets.xcassets in Resources */,
+				233936A3270BEFFE000BDC12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		234DA4CA2704A9EC00AAFCAD /* Sources */ = {
+		23393694270BEFFE000BDC12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				234DA4E72704A9ED00AAFCAD /* main.m in Sources */,
-				234DA4D92704A9EC00AAFCAD /* ViewController.m in Sources */,
-				234DA4DF2704A9EC00AAFCAD /* CustomDrawing.xcdatamodeld in Sources */,
-				234DA4D32704A9EC00AAFCAD /* AppDelegate.m in Sources */,
-				234DA4D62704A9EC00AAFCAD /* SceneDelegate.m in Sources */,
+				233936A0270BEFFE000BDC12 /* ViewController.swift in Sources */,
+				233936A6270BEFFE000BDC12 /* CustomDrawing.xcdatamodeld in Sources */,
+				2339369C270BEFFE000BDC12 /* AppDelegate.swift in Sources */,
+				2339369E270BEFFE000BDC12 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		234DA4DA2704A9EC00AAFCAD /* Main.storyboard */ = {
+		233936A1270BEFFE000BDC12 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				234DA4DB2704A9EC00AAFCAD /* Base */,
+				233936A2270BEFFE000BDC12 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		234DA4E22704A9ED00AAFCAD /* LaunchScreen.storyboard */ = {
+		233936A9270BF000000BDC12 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				234DA4E32704A9ED00AAFCAD /* Base */,
+				233936AA270BF000000BDC12 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		234DA4E82704A9ED00AAFCAD /* Debug */ = {
+		233936AD270BF000000BDC12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,10 +225,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		234DA4E92704A9ED00AAFCAD /* Release */ = {
+		233936AE270BF000000BDC12 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,11 +279,13 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		234DA4EB2704A9ED00AAFCAD /* Debug */ = {
+		233936B0270BF000000BDC12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -303,11 +298,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Binghamton-University.CustomDrawing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		234DA4EC2704A9ED00AAFCAD /* Release */ = {
+		233936B1270BF000000BDC12 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,6 +316,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Binghamton-University.CustomDrawing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -327,20 +324,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		234DA4C92704A9EC00AAFCAD /* Build configuration list for PBXProject "CustomDrawing" */ = {
+		23393693270BEFFE000BDC12 /* Build configuration list for PBXProject "CustomDrawing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				234DA4E82704A9ED00AAFCAD /* Debug */,
-				234DA4E92704A9ED00AAFCAD /* Release */,
+				233936AD270BF000000BDC12 /* Debug */,
+				233936AE270BF000000BDC12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		234DA4EA2704A9ED00AAFCAD /* Build configuration list for PBXNativeTarget "CustomDrawing" */ = {
+		233936AF270BF000000BDC12 /* Build configuration list for PBXNativeTarget "CustomDrawing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				234DA4EB2704A9ED00AAFCAD /* Debug */,
-				234DA4EC2704A9ED00AAFCAD /* Release */,
+				233936B0270BF000000BDC12 /* Debug */,
+				233936B1270BF000000BDC12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -348,17 +345,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		234DA4DD2704A9EC00AAFCAD /* CustomDrawing.xcdatamodeld */ = {
+		233936A4270BEFFE000BDC12 /* CustomDrawing.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				234DA4DE2704A9EC00AAFCAD /* CustomDrawing.xcdatamodel */,
+				233936A5270BEFFE000BDC12 /* CustomDrawing.xcdatamodel */,
 			);
-			currentVersion = 234DA4DE2704A9EC00AAFCAD /* CustomDrawing.xcdatamodel */;
+			currentVersion = 233936A5270BEFFE000BDC12 /* CustomDrawing.xcdatamodel */;
 			path = CustomDrawing.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 234DA4C62704A9EC00AAFCAD /* Project object */;
+	rootObject = 23393690270BEFFE000BDC12 /* Project object */;
 }
