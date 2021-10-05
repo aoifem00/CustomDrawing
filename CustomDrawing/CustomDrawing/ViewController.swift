@@ -59,8 +59,6 @@ class ViewController: UIViewController {
         let spiro=Spirograph(innerR: 75, outerR:125, distance:25, amount:1.0)
         let path=getPath(spirograph: spiro)
         
-
-        // create shape layer for that path
         let width=CGFloat(125);
         let height=CGFloat(125);
         let x=self.view.frame.midX;
@@ -75,16 +73,12 @@ class ViewController: UIViewController {
         shapeLayer.lineWidth = 2
         shapeLayer.path = path.cgPath
 
-        // animate it
-
         view.layer.addSublayer(shapeLayer)
         let animation = CABasicAnimation(keyPath: "strokeEnd")
         animation.fromValue = 0
         animation.duration = 5;
         shapeLayer.add(animation, forKey: "MyAnimation")
-
-        // save shape layer
-
+        
         self.shapeLayer = shapeLayer
     }
     
@@ -94,7 +88,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        //drawSpirograph()
         let button = UIButton(frame: CGRect(x:(self.view.frame.midX/2+self.view.frame.midX/4)/2, y:self.view.frame.midY+100, width:CGFloat(200), height:CGFloat(50)))
         button.setTitle("Draw Spirograph", for: UIControl.State.normal)
         let buttonText = "Draw Spirograph"
